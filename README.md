@@ -73,8 +73,8 @@
 
 ```bash
 # Clone the repo
-git clone https://github.com/CyprianFusi/rag-app.git
-cd llama-vercel
+git clone https://github.com/CyprianFusi/Chat-with-your-Files_RAG-APP
+cd Chat-with-your-Files_RAG-APP
 
 # Install dependencies
 npm install
