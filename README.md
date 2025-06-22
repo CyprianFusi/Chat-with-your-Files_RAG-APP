@@ -1,30 +1,83 @@
-This is a [LlamaIndex](https://www.llamaindex.ai/) project using [Next.js](https://nextjs.org/) bootstrapped with [`create-llama`](https://github.com/run-llama/LlamaIndexTS/tree/main/packages/create-llama).
+<div align="center">
+  <img src="https://raw.githubusercontent.com/CyprianFusi/Chat-with-your-Files_RAG-APP/main/public/binati_logo.png" alt="BINATI AI Logo" width="150"/>
 
-## Getting Started
+  # Chat with your Files
 
-First, install the dependencies:
+  _By **BINATI AInalytics**_
+</div>
 
-```
+---
+
+## 🧠 Chat with your Files – A RAG-Powered Document Assistant
+
+**Chat with your Files** is a powerful Retrieval-Augmented Generation (RAG) app designed to let you seamlessly interact with your documents. Upload files, ask natural language questions, and receive real-time, AI-generated responses complete with clear source attributions.
+
+---
+## ✅ What You Can Do
+1. **Upload** documents via the UI
+2. **Ask questions** naturally
+3. **Receive answers** backed by your own data
+
+# Demo
+![](public/demo_long.gif)
+
+## 🚀 Features
+
+### 📂 File Upload & Processing
+- Supports **PDF, TXT, DOCX, CSV, XLSX**
+- Auto file-type detection and parsing
+- Accurate token counting using `tiktoken`
+- Vector store and embedding management
+
+### 💬 Interactive Chat Interface
+- Character-by-character **streaming responses**
+- **Source documents referenced** below each reply
+- Reset and clean **conversation history**
+
+### 🧠 Smart RAG Backend
+- Context-aware answers via **LlamaIndex**
+- **Source attribution** so you know where info comes from
+- Robust **error handling** for edge cases
+
+---
+
+## ✨ Highlights
+- ⚡ **Streaming UX**: Real-time AI typing
+- 📚 **Cited Answers**: Know your sources
+- 🧩 **Modular Backend**: Easy to scale and extend
+- 🎨 **Modern UI**: Clean, intuitive interface
+
+---
+
+## 🛠 Planned Enhancements
+- 🗃 File Management Dashboard
+- 📁 Multi-file Chat Targeting
+- 👍 Thumbs Up/Down Feedback
+- 🔍 Document Previews
+- 💬 Chat History Persistence
+
+---
+
+---
+
+## 🧰 Tech Stack
+- **Frontend**: React + Tailwind + Streaming UI
+- **Backend**: Next.js + API Routes
+- **LLM**: OpenAI / Custom integration
+- **Indexing**: LlamaIndex for document embeddings
+- **Tokenization**: `tiktoken` support
+
+---
+
+## 📦 Getting Started
+
+```bash
+# Clone the repo
+git clone https://github.com/CyprianFusi/rag-app.git
+cd llama-vercel
+
+# Install dependencies
 npm install
-```
 
-Second, run the development server:
-
-```
+# Start development server
 npm run dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about LlamaIndex, take a look at the following resources:
-
-- [LlamaIndex Documentation](https://docs.llamaindex.ai) - learn about LlamaIndex (Python features).
-- [LlamaIndexTS Documentation](https://ts.llamaindex.ai) - learn about LlamaIndex (Typescript features).
-
-You can check out [the LlamaIndexTS GitHub repository](https://github.com/run-llama/LlamaIndexTS) - your feedback and contributions are welcome!
