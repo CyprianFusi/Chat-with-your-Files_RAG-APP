@@ -1,0 +1,2 @@
+LlamaIndex is a data framework for LLM applications. It provides tools to ingest, structure, and access private or domain-specific data. 
+Use cases include question-answering, chatbots, and agentic applications.
