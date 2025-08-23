@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://raw.githubusercontent.com/CyprianFusi/Chat-with-your-Files_RAG-APP/main/public/binati_logo.png" alt="BINATI AI Logo" width="150"/> <strong>Binati AInalytics</strong>
+  <img src="https://raw.githubusercontent.com/CyprianFusi/Chat-with-your-Files_RAG-APP/main/public/binati_logo.png" alt="BINATI AI Logo" width="100"/> <strong>Binati AInalytics</strong>
 
   # Chat with your Files
 
